@@ -1,0 +1,167 @@
+2020-09-25 18:21:24.371194: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-25 18:21:25.637117: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-09-25 18:21:25.694614: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:25.695241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:00:04.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.73GiB deviceMemoryBandwidth: 298.08GiB/s
+2020-09-25 18:21:25.695285: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-25 18:21:25.918677: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-09-25 18:21:26.057128: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-09-25 18:21:26.073316: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-09-25 18:21:26.350270: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-09-25 18:21:26.366596: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-09-25 18:21:26.912662: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-09-25 18:21:26.912842: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:26.913520: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:26.914056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-09-25 18:21:26.960812: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2200000000 Hz
+2020-09-25 18:21:26.961054: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2a82a00 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-09-25 18:21:26.961089: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-09-25 18:21:27.107114: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:27.107767: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2a82f40 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-09-25 18:21:27.107802: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+2020-09-25 18:21:27.108749: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:27.109323: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:00:04.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.73GiB deviceMemoryBandwidth: 298.08GiB/s
+2020-09-25 18:21:27.109368: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-25 18:21:27.109416: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-09-25 18:21:27.109438: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-09-25 18:21:27.109463: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-09-25 18:21:27.109484: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-09-25 18:21:27.109515: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-09-25 18:21:27.109539: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-09-25 18:21:27.109612: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:27.110176: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:27.110676: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2020-09-25 18:21:27.112556: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-09-25 18:21:30.868276: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-09-25 18:21:30.868340: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 
+2020-09-25 18:21:30.868355: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N 
+2020-09-25 18:21:30.871983: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:30.872592: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-09-25 18:21:30.873199: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2020-09-25 18:21:30.873249: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 13962 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:04.0, compute capability: 7.5)
+2020-09-25 18:21:31.315664: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+2020-09-25 18:21:31.319568: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1391] Profiler found 1 GPUs
+2020-09-25 18:21:31.352456: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcupti.so.10.1
+2020-09-25 18:21:31.565073: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1513] CUPTI activity buffer flushed
+Epoch 1/50
+2020-09-25 18:21:32.138869: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-09-25 18:21:34.093191: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+      1/Unknown - 0s 594us/step - loss: 1.5316 - categorical_accuracy: 0.21882020-09-25 18:21:39.863800: I tensorflow/core/profiler/lib/profiler_session.cc:164] Profiler session started.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+2020-09-25 18:21:39.898415: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1513] CUPTI activity buffer flushed
+2020-09-25 18:21:39.904260: I tensorflow/core/profiler/internal/gpu/device_tracer.cc:223]  GpuTracer has collected 130 callback api events and 130 activity events. 
+2020-09-25 18:21:39.929396: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39
+2020-09-25 18:21:39.937607: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for trace.json.gz to logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39/e811bb1330af.trace.json.gz
+2020-09-25 18:21:39.946788: I tensorflow/core/profiler/rpc/client/save_profile.cc:176] Creating directory: logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39
+2020-09-25 18:21:39.948054: I tensorflow/core/profiler/rpc/client/save_profile.cc:182] Dumped gzipped tool data for memory_profile.json.gz to logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39/e811bb1330af.memory_profile.json.gz
+2020-09-25 18:21:39.948530: I tensorflow/python/profiler/internal/profiler_wrapper.cc:111] Creating directory: logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39Dumped tool data for xplane.pb to logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39/e811bb1330af.xplane.pb
+Dumped tool data for overview_page.pb to logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39/e811bb1330af.overview_page.pb
+Dumped tool data for input_pipeline.pb to logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39/e811bb1330af.input_pipeline.pb
+Dumped tool data for tensorflow_stats.pb to logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39/e811bb1330af.tensorflow_stats.pb
+Dumped tool data for kernel_stats.pb to logs/ilcd-1601058091.3154125/train/plugins/profile/2020_09_25_18_21_39/e811bb1330af.kernel_stats.pb
+
+      2/Unknown - 0s 43ms/step - loss: 1.6534 - categorical_accuracy: 0.1250 WARNING:tensorflow:Callbacks method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0177s vs `on_train_batch_end` time: 0.0678s). Check your callbacks.
+439/439 [==============================] - 53s 122ms/step - loss: 1.6941 - categorical_accuracy: 0.1888 - val_loss: 1.5917 - val_categorical_accuracy: 0.2127
+Epoch 2/50
+439/439 [==============================] - 31s 70ms/step - loss: 1.5586 - categorical_accuracy: 0.1986 - val_loss: 1.4950 - val_categorical_accuracy: 0.2190
+Epoch 3/50
+439/439 [==============================] - 31s 72ms/step - loss: 1.4741 - categorical_accuracy: 0.2135 - val_loss: 1.4295 - val_categorical_accuracy: 0.2470
+Epoch 4/50
+439/439 [==============================] - 32s 72ms/step - loss: 1.4146 - categorical_accuracy: 0.2510 - val_loss: 1.3810 - val_categorical_accuracy: 0.2783
+Epoch 5/50
+439/439 [==============================] - 33s 74ms/step - loss: 1.3693 - categorical_accuracy: 0.2832 - val_loss: 1.3429 - val_categorical_accuracy: 0.3047
+Epoch 6/50
+439/439 [==============================] - 31s 71ms/step - loss: 1.3331 - categorical_accuracy: 0.3051 - val_loss: 1.3116 - val_categorical_accuracy: 0.3187
+Epoch 7/50
+439/439 [==============================] - 31s 70ms/step - loss: 1.3030 - categorical_accuracy: 0.3226 - val_loss: 1.2849 - val_categorical_accuracy: 0.3380
+Epoch 8/50
+439/439 [==============================] - 30s 69ms/step - loss: 1.2771 - categorical_accuracy: 0.3344 - val_loss: 1.2617 - val_categorical_accuracy: 0.3523
+Epoch 9/50
+439/439 [==============================] - 31s 70ms/step - loss: 1.2545 - categorical_accuracy: 0.3449 - val_loss: 1.2411 - val_categorical_accuracy: 0.3620
+Epoch 10/50
+439/439 [==============================] - 31s 71ms/step - loss: 1.2344 - categorical_accuracy: 0.3527 - val_loss: 1.2227 - val_categorical_accuracy: 0.3707
+Epoch 11/50
+439/439 [==============================] - 31s 71ms/step - loss: 1.2164 - categorical_accuracy: 0.3596 - val_loss: 1.2061 - val_categorical_accuracy: 0.3747
+Epoch 12/50
+439/439 [==============================] - 32s 72ms/step - loss: 1.2001 - categorical_accuracy: 0.3650 - val_loss: 1.1910 - val_categorical_accuracy: 0.3797
+Epoch 13/50
+439/439 [==============================] - 32s 73ms/step - loss: 1.1853 - categorical_accuracy: 0.3699 - val_loss: 1.1772 - val_categorical_accuracy: 0.3873
+Epoch 14/50
+439/439 [==============================] - 32s 72ms/step - loss: 1.1718 - categorical_accuracy: 0.3729 - val_loss: 1.1645 - val_categorical_accuracy: 0.3923
+Epoch 15/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.1594 - categorical_accuracy: 0.3779 - val_loss: 1.1528 - val_categorical_accuracy: 0.3937
+Epoch 16/50
+439/439 [==============================] - 32s 73ms/step - loss: 1.1479 - categorical_accuracy: 0.3829 - val_loss: 1.1420 - val_categorical_accuracy: 0.3980
+Epoch 17/50
+439/439 [==============================] - 33s 74ms/step - loss: 1.1374 - categorical_accuracy: 0.3851 - val_loss: 1.1320 - val_categorical_accuracy: 0.4013
+Epoch 18/50
+439/439 [==============================] - 32s 73ms/step - loss: 1.1276 - categorical_accuracy: 0.3879 - val_loss: 1.1226 - val_categorical_accuracy: 0.4073
+Epoch 19/50
+439/439 [==============================] - 33s 74ms/step - loss: 1.1184 - categorical_accuracy: 0.3915 - val_loss: 1.1139 - val_categorical_accuracy: 0.4100
+Epoch 20/50
+439/439 [==============================] - 33s 74ms/step - loss: 1.1099 - categorical_accuracy: 0.3950 - val_loss: 1.1058 - val_categorical_accuracy: 0.4150
+Epoch 21/50
+439/439 [==============================] - 32s 74ms/step - loss: 1.1020 - categorical_accuracy: 0.3987 - val_loss: 1.0981 - val_categorical_accuracy: 0.4163
+Epoch 22/50
+439/439 [==============================] - 33s 74ms/step - loss: 1.0946 - categorical_accuracy: 0.4013 - val_loss: 1.0910 - val_categorical_accuracy: 0.4177
+Epoch 23/50
+439/439 [==============================] - 32s 72ms/step - loss: 1.0877 - categorical_accuracy: 0.4040 - val_loss: 1.0842 - val_categorical_accuracy: 0.4193
+Epoch 24/50
+439/439 [==============================] - 32s 72ms/step - loss: 1.0811 - categorical_accuracy: 0.4057 - val_loss: 1.0778 - val_categorical_accuracy: 0.4213
+Epoch 25/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0750 - categorical_accuracy: 0.4081 - val_loss: 1.0718 - val_categorical_accuracy: 0.4253
+Epoch 26/50
+439/439 [==============================] - 32s 73ms/step - loss: 1.0692 - categorical_accuracy: 0.4109 - val_loss: 1.0661 - val_categorical_accuracy: 0.4287
+Epoch 27/50
+439/439 [==============================] - 32s 74ms/step - loss: 1.0638 - categorical_accuracy: 0.4122 - val_loss: 1.0607 - val_categorical_accuracy: 0.4303
+Epoch 28/50
+439/439 [==============================] - 32s 73ms/step - loss: 1.0586 - categorical_accuracy: 0.4143 - val_loss: 1.0555 - val_categorical_accuracy: 0.4317
+Epoch 29/50
+439/439 [==============================] - 32s 74ms/step - loss: 1.0537 - categorical_accuracy: 0.4162 - val_loss: 1.0506 - val_categorical_accuracy: 0.4353
+Epoch 30/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0491 - categorical_accuracy: 0.4181 - val_loss: 1.0459 - val_categorical_accuracy: 0.4380
+Epoch 31/50
+439/439 [==============================] - 32s 74ms/step - loss: 1.0448 - categorical_accuracy: 0.4207 - val_loss: 1.0415 - val_categorical_accuracy: 0.4410
+Epoch 32/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0406 - categorical_accuracy: 0.4228 - val_loss: 1.0373 - val_categorical_accuracy: 0.4410
+Epoch 33/50
+439/439 [==============================] - 32s 74ms/step - loss: 1.0367 - categorical_accuracy: 0.4250 - val_loss: 1.0332 - val_categorical_accuracy: 0.4433
+Epoch 34/50
+439/439 [==============================] - 33s 76ms/step - loss: 1.0330 - categorical_accuracy: 0.4264 - val_loss: 1.0294 - val_categorical_accuracy: 0.4450
+Epoch 35/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0296 - categorical_accuracy: 0.4275 - val_loss: 1.0258 - val_categorical_accuracy: 0.4467
+Epoch 36/50
+439/439 [==============================] - 33s 74ms/step - loss: 1.0263 - categorical_accuracy: 0.4290 - val_loss: 1.0224 - val_categorical_accuracy: 0.4483
+Epoch 37/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0232 - categorical_accuracy: 0.4300 - val_loss: 1.0192 - val_categorical_accuracy: 0.4490
+Epoch 38/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0203 - categorical_accuracy: 0.4322 - val_loss: 1.0162 - val_categorical_accuracy: 0.4490
+Epoch 39/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0177 - categorical_accuracy: 0.4337 - val_loss: 1.0134 - val_categorical_accuracy: 0.4500
+Epoch 40/50
+439/439 [==============================] - 33s 76ms/step - loss: 1.0152 - categorical_accuracy: 0.4345 - val_loss: 1.0109 - val_categorical_accuracy: 0.4513
+Epoch 41/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0130 - categorical_accuracy: 0.4348 - val_loss: 1.0086 - val_categorical_accuracy: 0.4527
+Epoch 42/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0111 - categorical_accuracy: 0.4354 - val_loss: 1.0067 - val_categorical_accuracy: 0.4540
+Epoch 43/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0093 - categorical_accuracy: 0.4367 - val_loss: 1.0051 - val_categorical_accuracy: 0.4557
+Epoch 44/50
+439/439 [==============================] - 34s 77ms/step - loss: 1.0079 - categorical_accuracy: 0.4374 - val_loss: 1.0040 - val_categorical_accuracy: 0.4590
+Epoch 45/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0068 - categorical_accuracy: 0.4384 - val_loss: 1.0034 - val_categorical_accuracy: 0.4567
+Epoch 46/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0060 - categorical_accuracy: 0.4380 - val_loss: 1.0033 - val_categorical_accuracy: 0.4570
+Epoch 47/50
+439/439 [==============================] - 33s 75ms/step - loss: 1.0055 - categorical_accuracy: 0.4374 - val_loss: 1.0039 - val_categorical_accuracy: 0.4590
+Epoch 48/50
+439/439 [==============================] - 33s 74ms/step - loss: 1.0054 - categorical_accuracy: 0.4374 - val_loss: 1.0054 - val_categorical_accuracy: 0.4567
+Epoch 49/50
+439/439 [==============================] - 32s 74ms/step - loss: 1.0058 - categorical_accuracy: 0.4376 - val_loss: 1.0081 - val_categorical_accuracy: 0.4543
+Epoch 50/50
+439/439 [==============================] - 32s 73ms/step - loss: 1.0065 - categorical_accuracy: 0.4370 - val_loss: 1.0121 - val_categorical_accuracy: 0.4523
